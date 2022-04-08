@@ -195,6 +195,23 @@ We're nearly finished. The last step is to create a variable called `locationDat
 
 Feel free to create your own, making sure to supply the needed keys. However to best experience the amazing time that I was able to have in Seattle, I'm linking to [the GitHub repo](https://github.com/mtliendo/seattle-team-visit-map/blob/main/src/App.js#L12-L73) that contains image URL's, titles, and descriptions of some of my favorite events.
 
+If creating your own `locationData` variable, this project expects an array of objects with the following shape:
+
+```js
+const locationData = [
+	{
+		id: 1,
+		title: 'Amplify Team Dinner',
+		description:
+			"It's not everyone, but I'm grateful I was able to see folks in real life and bond over food, drinks and laughs!",
+		image:
+			'https://aws-map-seattle-blog-pics.s3.amazonaws.com/public/IMG_20220330_204113.jpeg',
+		longitude: -122.3098577,
+		latitude: 47.6248646,
+	}
+]
+```
+
 To view the application, run the following command
 
 ```js
