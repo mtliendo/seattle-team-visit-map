@@ -203,6 +203,8 @@ npm run start
 
 ![Underground Tour](./screenshots/underground.png)
 
+---
+
 In this tutorial, we explored the newly-announced `MapView` component, and how it can be used with Amplify React primitives, and the `react-map-gl` library. In addition, we explored to how to configure geo applications through the Amplify CLI. As a bonus, if you used my `locationData` from GitHub, you also got to know how my experience was in Seattle!
 
 For more information on Geo connected components, visit [our docs page](https://ui.docs.amplify.aws/components/geo). And for getting started with Amplify and the geo category, visit the Amplify docs for a [full tutorial walkthrough](https://docs.amplify.aws/lib/geo/getting-started/q/platform/js/).
