@@ -4,7 +4,7 @@ Recently, AWS Amplify announced an easier way for React developers to add map an
 
 The application we'll build is a simple landing page that shows the markers of the amazing time I had with my Amplify friends and coworkers a few weeks ago. It was our first team gathering and as such, I got to explore beautiful Seattle.
 
-(Team Dinner)[./screenshots/team-dinner.png]
+![Team Dinner](./screenshots/team-dinner.png)
 
 > This article assumes you have the Amplify CLI installed. This project makes use of v8.0.0. To install the CLI, run the command `npm install -g @aws-amplify/cli`. For a complete getting started guide, [visit our docs page](https://docs.amplify.aws/start/getting-started/installation/q/integration/react/) for instructions
 
@@ -201,7 +201,7 @@ To view the application, run the following command
 npm run start
 ```
 
-## (Underground Tour)[./screenshots/underground.png]
+![Underground Tour](./screenshots/underground.png)
 
 In this tutorial, we explored the newly-announced `MapView` component, and how it can be used with Amplify React primitives, and the `react-map-gl` library. In addition, we explored to how to configure geo applications through the Amplify CLI. As a bonus, if you used my `locationData` from GitHub, you also got to know how my experience was in Seattle!
 
